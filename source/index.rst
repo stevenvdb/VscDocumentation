@@ -20,3 +20,5 @@ Welcome to VSC documentation
    faq
 
 Feel free to contact :ref:`user support <user support VSC>`.
+
+Changes
