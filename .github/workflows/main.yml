@@ -13,4 +13,7 @@ jobs:
       - name: build sphinx docs
         run: |
           make html
-
+      - uses: actions/upload-artifact@v1
+        with:
+          name: DocumentationHTML
+          path: docs/_build/html/
